@@ -1,4 +1,4 @@
-/**/
+/*estilos de botones animados*/
 
 span{margin: 20px;}
 .corner-button {
@@ -33,7 +33,7 @@ span{margin: 20px;}
 .corner-button::before, .corner-button::after {
   content: '';
   position: absolute;
-  background: #777777;
+  background: #063A51;
   z-index: 1;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
