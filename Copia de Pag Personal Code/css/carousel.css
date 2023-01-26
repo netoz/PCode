@@ -57,19 +57,16 @@
 /*Adicionales*/
 
 img.ccn1{
-      width: auto;
-    height: 30%;
-    margin: 1em 0em;
+    width: auto;
+    height: 50%;
 }
 
 .pcarrusel{
     text-align: center;
     color: #EAEBED;
-    min-width: 250px;
-    font-size: 1.2rem;
+    min-width: 360px;
+    font-size: 1.2em;
 }
-
-
 
 
 

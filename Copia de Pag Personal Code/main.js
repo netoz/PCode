@@ -24,12 +24,13 @@ figures()
 var owl = $('.owl-soluciones');
 owl.owlCarousel({
     items:4,
+	stagePadding: 10,
     loop:true,
     margin:10,
     autoplay:true,
     autoplayTimeout:6000,
     autoplayHoverPause:true,
-    responsiveClass:true,
+	responsiveClass:true,
     responsive:{
         0:{
             items:1,
@@ -49,26 +50,28 @@ owl.owlCarousel({
 
 var owl_casos = $('.owl-casos');
 owl_casos.owlCarousel({
-    items:4,
+	stagePadding: 10,
+    items:1,
     loop:true,
     margin:10,
     autoplay:true,
     autoplayTimeout:6000,
     autoplayHoverPause:true,
-    responsiveClass:true,
+	responsiveClass:true,
     responsive:{
         0:{
             items:1,
             nav:false
         },
         600:{
-            items:3,
+            items:1,
             nav:true
         },
         1000:{
-            items:4,
+            items:1,
             nav:true,
             loop:true
         }
     }
 });
+
